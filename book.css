@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h1{
+    margin: 30px;
+    background-color: antiquewhite;
+    position: relative;
+    text-align: center;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Open Sans', sans-serif;
+    /* background-image: linear-gradient(to bottom right, orange,yellow); */
+}
+
+pre{
+    text-align: centre;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500px;
+}
+.buylink{
+    padding: 8px;
+    text-align: center;
+    background-color: rgb(243, 215, 91);
+    border-radius: 45px;
+    outline: none;
+    border:none;
+    margin-right: 10px;
+    font-weight:500px;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+.buylink:hover{
+    background-color: pink;
+}
+#book01{
+    height: 400px;
+}
+#book02{
+    height: 400px;
+}
+#book03{
+    height: 400px;
+}
+#book04{
+    height: 400px;
+}
