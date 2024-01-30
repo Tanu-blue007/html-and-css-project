@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+main{
+    background-color: rgb(254, 209, 151);
+    height:100%vw;
+    width: 100%vw;
+    margin-bottom: 5px;
+    border-radius: 25px;
+    padding-bottom: 10px;
+}
+h1{
+    display: flex;
+    margin-bottom: 20px;
+    background-color: antiquewhite;
+    position: relative;
+    text-align: center;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Open Sans', sans-serif;
+    /* background-image: linear-gradient(to bottom right, orange,yellow); */
+}
+
+pre{
+    text-align: centre;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500px;
+}
+.buylink{
+    padding: 8px;
+    text-align: center;
+    background-color: rgb(255, 208, 0);
+    border-radius: 10px;
+    outline: none;
+    border:none;
+    margin-right: 10px;
+    font-weight:1000px;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+.buylink:hover{
+    background-color: rgb(226, 196, 1);
+}
+#book01{
+    height: 400px;
+    border-radius: 25px;
+}
+#book02{
+    height: 400px;
+    border-radius: 25px;
+}
+#book03{
+    height: 400px;
+    border-radius: 25px;
+}
+#book04{
+    height: 400px;
+    border-radius: 25px;
+}
+#book05{
+    height: 400px;
+    border-radius: 25px;
+}
+  
+footer{
+    padding: 20px;
+    background-color: rgb(242, 213, 213);
+    font-family: 'PT Sans', sans-serif;
+    border-radius: 25px;
+    font-weight:300px;
+}
